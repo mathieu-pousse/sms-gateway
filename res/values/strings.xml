@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Server</string>
+    <string name="app_name_long">SMS Messaging Server</string>
+    <string name="app_description">Server status</string>
+    <string name="menu_settings">Settings</string>
+    <string name="clear_console">Clear console</string>
+    <string name="pref_port">Port number</string>
+    <string name="pref_port_title">Server port</string>
+    <string name="app_server_running">Off</string>
+    <string name="app_server_stopped">On</string>
+    <string name="img_separator">separator</string>
+    <string name="pref_send_sms">Send SMS</string>
+    <string name="pref_send_sms_description">Does the server actually sends SMS?</string>
+    <string name="service_started">http server running</string>
+
+</resources>

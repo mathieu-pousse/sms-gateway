@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:dialogTitle="@string/pref_port_title"
+                        android:defaultValue="8888"
+                        android:inputType="number"
+                        android:key="listener.port-number"
+                        android:title="@string/pref_port"
+                        android:selectAllOnFocus="true"
+                        />
+
+    <CheckBoxPreference
+            android:key="listener.fake"
+            android:defaultValue="true"
+            android:title="@string/pref_send_sms"
+            android:summary="@string/pref_send_sms_description"/>
+
+</PreferenceScreen>
